@@ -1,1 +1,30 @@
-{"name":"ispace-prod","version":"1.0.0","type":"module","private":true,"dependencies":{"@babel/parser":"7.26.9","@imgproxy/imgproxy-js-core":"1.1.0","@unhead/dom":"1.11.20","@unhead/shared":"1.11.20","@unhead/ssr":"1.11.20","@vue/compiler-core":"3.5.13","@vue/compiler-dom":"3.5.13","@vue/compiler-ssr":"3.5.13","@vue/devtools-api":"7.7.2","@vue/devtools-kit":"7.7.2","@vue/devtools-shared":"7.7.2","@vue/reactivity":"3.5.13","@vue/runtime-core":"3.5.13","@vue/runtime-dom":"3.5.13","@vue/server-renderer":"3.5.13","@vue/shared":"3.5.13","@vuelidate/core":"2.0.3","@vuelidate/validators":"2.0.4","@vueuse/core":"10.11.1","@vueuse/shared":"10.11.1","birpc":"0.2.19","date-fns":"4.1.0","dayjs":"1.11.13","deepmerge":"4.3.1","devalue":"5.1.1","dom-serializer":"2.0.0","domelementtype":"2.3.0","domhandler":"5.0.3","domutils":"3.2.2","entities":"4.5.0","escape-string-regexp":"4.0.0","estree-walker":"2.0.2","hookable":"5.5.3","htmlparser2":"8.0.2","humps":"2.0.1","is-plain-object":"5.0.0","libphonenumber-js":"1.12.5","maska":"3.1.0","nanoid":"3.3.8","packrup":"0.1.2","parse-srcset":"1.0.2","perfect-debounce":"1.0.0","picocolors":"1.1.1","pinia":"3.0.1","postcss":"8.5.3","sanitize-html":"2.14.0","smooth-dnd":"0.12.1","source-map-js":"1.2.1","swiper":"11.2.5","ufo":"1.5.4","unhead":"1.11.20","vue":"3.5.13","vue-bundle-renderer":"2.1.1","vue-demi":"0.13.11","vue-router":"4.5.0","vue3-smooth-dnd":"0.0.6","zod":"3.24.2"}}
+{
+    "name": "ispace-prod",
+    "version": "1.0.0",
+    "type": "module",
+    "private": true,
+    "dependencies": {
+        "@babel/parser": "7.26.7",
+        "@unhead/dom": "1.11.18",
+        "@unhead/shared": "1.11.18",
+        "@unhead/ssr": "1.11.18",
+        "@vue/compiler-core": "3.5.13",
+        "@vue/compiler-dom": "3.5.13",
+        "@vue/compiler-ssr": "3.5.13",
+        "@vue/reactivity": "3.5.13",
+        "@vue/runtime-core": "3.5.13",
+        "@vue/runtime-dom": "3.5.13",
+        "@vue/server-renderer": "3.5.13",
+        "@vue/shared": "3.5.13",
+        "devalue": "5.1.1",
+        "entities": "4.5.0",
+        "estree-walker": "2.0.2",
+        "hookable": "5.5.3",
+        "packrup": "0.1.2",
+        "source-map-js": "1.2.1",
+        "ufo": "1.5.4",
+        "unhead": "1.11.18",
+        "vue": "3.5.13",
+        "vue-bundle-renderer": "2.1.1"
+    }
+}
