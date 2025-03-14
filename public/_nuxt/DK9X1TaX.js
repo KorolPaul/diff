@@ -1,0 +1,1 @@
+import{_ as t,j as n,o as r,aa as s,ad as a}from"./Pd6RrLp1.js";const _={};function c(o,e){return r(),n("form",{class:"form",onSubmit:e[0]||(e[0]=a(()=>{},["prevent"]))},[s(o.$slots,"default",{},void 0,!0)],32)}const f=t(_,[["render",c],["__scopeId","data-v-96080bb2"]]);export{f as _};

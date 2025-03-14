@@ -1,0 +1,1 @@
+import{av as n,x as e}from"./Pd6RrLp1.js";const p=o=>{const{camelizeKeys:r}=n,t=r(o),c=e(()=>t.orderedQuantity||1),u=e(()=>t.price*c.value),a=e(()=>t.priceBundle||t.priceWithDiscount),i=e(()=>a.value*c.value),s=e(()=>t.totalPriceCategory5*c.value);return{productCount:c,totalPrice:u,totalPriceDiscountValue:i,priceCat4:s}};export{p as u};

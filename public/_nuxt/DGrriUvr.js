@@ -1,0 +1,1 @@
+import{b as o}from"./T4kW5CUp.js";import{x as r}from"./Pd6RrLp1.js";const a=()=>{const e=o("viewed",[]),s=t=>{!e.value.includes(t)&&t&&(e.value.length>=6&&e.value.shift(),e.value.push(t))},u=r(()=>e.value);return{setViewedProduct:s,getViewedProducts:u}};export{a as u};

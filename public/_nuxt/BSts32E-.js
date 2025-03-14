@@ -1,0 +1,1 @@
+const r=t=>Number(t).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2}),o=t=>t?`${new Intl.NumberFormat("ru-Ru").format(t)}`:0,i=()=>({formatPrice:r,formatPriceWithSpaces:o});export{i as u};

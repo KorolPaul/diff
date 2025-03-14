@@ -1,0 +1,1 @@
+import{_ as o}from"./CuRHY0aD.js";import{_,j as t,o as c,l as n}from"./Pd6RrLp1.js";const r={},a={class:"ui-page-wrapper"};function s(p,d){const e=o;return c(),t("div",a,[n(e)])}const f=_(r,[["render",s],["__scopeId","data-v-7079da79"]]);export{f as _};

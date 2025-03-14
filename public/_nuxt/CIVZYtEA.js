@@ -1,0 +1,1 @@
+import{_ as t}from"./qKLLgZOX.js";import{c as a,o as c,O as n}from"./Pd6RrLp1.js";const i={__name:"ui-rotate-arrow",props:{active:{type:Boolean,default:!1},centered:{type:Boolean,default:!1}},setup(e){return(r,s)=>{const o=t;return c(),a(o,{icon:"dropdown",class:n(["ui-rotate-arrow",{active:e.active,centered:e.centered}])},null,8,["class"])}}};export{i as _};

@@ -1,0 +1,1 @@
+import{r as a,b as t,M as u,n as c}from"./Pd6RrLp1.js";const B=()=>{const n=a(null),r=a(3e3),{locale:s}=t(),o=e=>{n.value=e.banners,r.value=e.frequency_slider};return{bannersGroup:n,bannersSpeed:r,fetchBannerGroup:async()=>{const e=await u.getGroupBy(c.subcategoryBanner,s.value);e&&o(e)}}};export{B as u};

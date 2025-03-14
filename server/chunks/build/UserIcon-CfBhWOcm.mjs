@@ -1,0 +1,48 @@
+import { mergeProps, useSSRContext } from 'vue';
+import { ssrRenderAttrs } from 'vue/server-renderer';
+import { _ as _export_sfc } from './server.mjs';
+import '../_/nitro.mjs';
+import 'node:http';
+import 'node:https';
+import 'node:events';
+import 'node:buffer';
+import 'node:fs';
+import 'node:url';
+import 'node:path';
+import 'node:crypto';
+import '../routes/renderer.mjs';
+import 'vue-bundle-renderer/runtime';
+import 'devalue';
+import '@unhead/ssr';
+import 'unhead';
+import '@unhead/shared';
+import 'pinia';
+import 'vue-router';
+import 'dayjs';
+import 'dayjs/plugin/updateLocale.js';
+import 'dayjs/plugin/relativeTime.js';
+import 'dayjs/plugin/utc.js';
+import '@vueuse/core';
+import 'zod';
+import 'humps';
+
+const _sfc_main = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  _push(`<svg${ssrRenderAttrs(mergeProps({
+    width: "16",
+    height: "17",
+    viewBox: "0 0 16 17",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, _attrs))}><path d="M2.38596 16.8867C1.12865 16.8867 0.5 16.4569 0.5 15.5972C0.5 15.0241 0.672515 14.4189 1.01754 13.7815C1.36842 13.1382 1.87134 12.5358 2.52632 11.9744C3.18129 11.4072 3.97368 10.9452 4.90351 10.5885C5.83333 10.2317 6.88597 10.0534 8.0614 10.0534C9.23099 10.0534 10.2807 10.2317 11.2105 10.5885C12.1404 10.9452 12.9327 11.4072 13.5877 11.9744C14.2427 12.5358 14.7427 13.1382 15.0877 13.7815C15.4386 14.4189 15.614 15.0241 15.614 15.5972C15.614 16.4569 14.9825 16.8867 13.7193 16.8867H2.38596ZM2.12281 15.8692H14C14.1988 15.8692 14.3363 15.8399 14.4123 15.7815C14.4942 15.7288 14.5351 15.6323 14.5351 15.492C14.5351 15.0709 14.3918 14.6089 14.1053 14.106C13.8187 13.6031 13.3977 13.1206 12.8421 12.6586C12.2924 12.1967 11.614 11.8195 10.807 11.5271C10.0058 11.2288 9.09064 11.0797 8.0614 11.0797C7.02632 11.0797 6.10526 11.2288 5.29825 11.5271C4.49708 11.8195 3.81871 12.1967 3.26316 12.6586C2.71345 13.1206 2.29532 13.6031 2.00877 14.106C1.72222 14.6089 1.57895 15.0709 1.57895 15.492C1.57895 15.6323 1.61696 15.7288 1.69298 15.7815C1.77485 15.8399 1.91813 15.8692 2.12281 15.8692ZM8.07018 8.85163C7.38597 8.85163 6.76608 8.67327 6.21053 8.31654C5.65497 7.95397 5.21053 7.46859 4.87719 6.8604C4.54971 6.25222 4.38596 5.57678 4.38596 4.83409C4.38596 4.10894 4.54971 3.44812 4.87719 2.85163C5.21053 2.25514 5.65497 1.77853 6.21053 1.42181C6.77193 1.06508 7.39181 0.886719 8.07018 0.886719C8.74854 0.886719 9.3655 1.06216 9.92105 1.41303C10.4825 1.76391 10.9269 2.2376 11.2544 2.83409C11.5877 3.43058 11.7544 4.0914 11.7544 4.81654C11.7544 5.56508 11.5877 6.24637 11.2544 6.8604C10.9269 7.46859 10.4825 7.95397 9.92105 8.31654C9.3655 8.67327 8.74854 8.85163 8.07018 8.85163ZM8.07018 7.83409C8.54971 7.83409 8.98538 7.69958 9.37719 7.43058C9.77485 7.16157 10.0877 6.799 10.3158 6.34286C10.5497 5.88672 10.6667 5.37795 10.6667 4.81654C10.6667 4.27268 10.5497 3.78146 10.3158 3.34286C10.0819 2.89841 9.76901 2.54754 9.37719 2.29023C8.98538 2.03292 8.54971 1.90426 8.07018 1.90426C7.59064 1.90426 7.15205 2.03584 6.75439 2.299C6.36257 2.55631 6.04971 2.90719 5.81579 3.35163C5.58187 3.79608 5.46491 4.29023 5.46491 4.83409C5.46491 5.39549 5.58187 5.90426 5.81579 6.3604C6.04971 6.8107 6.36257 7.17034 6.75439 7.43935C7.15205 7.70251 7.59064 7.83409 8.07018 7.83409Z" fill="currentColor"></path></svg>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/UI/icon/assets/UserIcon.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const UserIcon = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+
+export { UserIcon as default };
+//# sourceMappingURL=UserIcon-CfBhWOcm.mjs.map

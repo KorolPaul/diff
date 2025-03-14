@@ -1,0 +1,1 @@
+const i=()=>{const a=(t,r,s)=>(s=s||"...",t.length>r?t.slice(0,r)+s:t),c=t=>t.toString().charAt(0).toUpperCase()+t.slice(1),e=t=>{const r=t.lastIndexOf("(");return r!==-1?t.substring(0,r):t},n=t=>t.split(/,/)[0];return{capitalize:c,truncate:a,removeLastParentheses:e,truncateByFirstComma:n,trancateProductName:t=>e(n(t))}};export{i as u};

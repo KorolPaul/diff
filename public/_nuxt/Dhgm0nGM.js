@@ -1,0 +1,1 @@
+import{_ as s,j as o,o as r,k as t}from"./Pd6RrLp1.js";const n={},c={"aria-hidden":"true",focusable:"false",class:"spinner",viewBox:"0 0 66 66",xmlns:"http://www.w3.org/2000/svg"};function a(l,e){return r(),o("svg",c,e[0]||(e[0]=[t("circle",{class:"path",fill:"none","stroke-width":"6",cx:"33",cy:"33",r:"30"},null,-1)]))}const d=s(n,[["render",a]]);export{d as default};

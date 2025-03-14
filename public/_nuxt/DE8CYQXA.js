@@ -1,0 +1,1 @@
+import{Y as o}from"./Pd6RrLp1.js";const i=async n=>{const s=o(),a=await(await fetch(`${s.public.baseURL}/api/translations?lang=${n}`)).json();for(const[e,t]of Object.entries(a.data))a.data[e]=t==null?void 0:t.replace("@","{'@'}");return a.data};export{i as default};

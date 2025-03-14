@@ -1,0 +1,1 @@
+const n=(e,t)=>{const i=e.toFixed(),o=()=>{window.pageYOffset.toFixed()===i&&(window.removeEventListener("scroll",o),t&&t())};window.addEventListener("scroll",o),o(),window.scrollTo({top:e,behavior:"smooth"})};export{n as u};

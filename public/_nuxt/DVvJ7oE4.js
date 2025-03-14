@@ -1,0 +1,1 @@
+import{f as d}from"./T4kW5CUp.js";import{aI as i,x as c,w as m}from"./Pd6RrLp1.js";const p=s=>{const t=i("$aZ6m1lNG6K"),{height:o}=d(s),a=c(()=>t.value),n=e=>{document.documentElement.style.setProperty("--header-height",`${e}px`)},r=e=>{t.value!==e&&(t.value=e)};return m(o,e=>{n(e)}),{setHidden:r,isHidden:a}};export{p as u};

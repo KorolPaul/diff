@@ -1,0 +1,1 @@
+const f=t=>{const s={},y=(r,a)=>{if(!Array.isArray(a)){s[r]=a;return}a.forEach((o,c)=>{Array.isArray(o)?y(`${r}[${c}]`,o):s[`${r}[${c}]`]=o})};for(const r in t)y(r.replace(/filters\[(.+?)\]/,"filters[$1]"),t[r]);return s};export{f};

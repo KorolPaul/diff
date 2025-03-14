@@ -1,0 +1,1 @@
+import{a6 as a,a7 as t}from"./Pd6RrLp1.js";const c=`${t}crm/leads/feedback`,o=`${t}crm/leads/store`,n={async sendFeedbackData(e){const{post:s}=a();return s(`${c}`,e)},async sendStoreData(e){const{post:s}=a();return s(`${o}`,e)}};export{n as L};
